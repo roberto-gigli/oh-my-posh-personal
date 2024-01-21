@@ -17,9 +17,6 @@
           "background": "#29315A",
           "foreground": "#3EC669",
           "leading_diamond": "\ue0b6",
-          "properties": {
-            "style": "folder"
-          },
           "style": "diamond",
           "template": "\ue5ff {{ .Path }}",
           "trailing_diamond": "\ue0b4",
