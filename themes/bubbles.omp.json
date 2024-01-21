@@ -18,7 +18,10 @@
           "foreground": "#3EC669",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
-          "template": "\ue5ff {{ .Path }}",
+          "properties": {
+            "style": "folder"
+          },
+          "template": "{{ .Path }}",
           "trailing_diamond": "\ue0b4",
           "type": "path"
         },
