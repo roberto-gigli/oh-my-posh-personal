@@ -64,6 +64,18 @@
           ]
         },
         {
+          "type": "shell",
+          "style": "diamond",
+          "leading_diamond": " \ue0b6",
+          "trailing_diamond": "\ue0b4",
+          "foreground": "#5ee7ec",
+          "background": "#29315A",
+          "template": "{{ .Name }} {{ .Version }}",
+          "properties": {
+            "macos": "mac"
+          }
+        },
+        {
           "type": "os",
           "style": "diamond",
           "leading_diamond": " \ue0b6",
