@@ -57,6 +57,11 @@
           "background": "#29315A",
           "type": "battery",
           "style": "diamond",
+          "properties": {
+            "charged_icon": "🔋 ",
+            "charging_icon": "🔋⬆ ",
+            "discharging_icon": "🔋⬇ "
+          },
           "foreground_templates": [
             "{{if eq \"Charging\" .State.String}}#40c4ff{{end}}",
             "{{if eq \"Discharging\" .State.String}}#ff5722{{end}}",
