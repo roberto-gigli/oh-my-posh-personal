@@ -44,12 +44,6 @@
           "style": "diamond"
         },
         {
-          "properties": {
-            "cache_duration": "none",
-            "charged_icon": " ",
-            "charging_icon": "\u21e1 ",
-            "discharging_icon": "\u21e3 "
-          },
           "leading_diamond": " \ue0b6",
           "trailing_diamond": "\ue0b4",
           "template": "{{ if not .Error }}{{ .Icon }}{{ .Percentage }}{{ end }}{{ .Error }}",
