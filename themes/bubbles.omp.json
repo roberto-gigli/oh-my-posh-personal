@@ -20,7 +20,7 @@
         {
           "properties": {
             "cache_duration": "none",
-            "style": "mixed"
+            "style": "agnoster_short"
           },
           "leading_diamond": "\ue0b6",
           "trailing_diamond": "\ue0b4",
