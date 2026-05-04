@@ -31,9 +31,9 @@
           "style": "diamond"
         },
         {
-          "properties": {
+          "options": {
             "branch_icon": "\uf126 ",
-            "cache_duration": "none"
+            "cache_duration": "1h"
           },
           "leading_diamond": " \ue0b6",
           "trailing_diamond": "\ue0b4",
