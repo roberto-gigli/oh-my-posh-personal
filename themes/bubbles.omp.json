@@ -6,7 +6,7 @@
       "alignment": "right",
       "segments": [
         {
-          "properties": {
+          "options": {
             "cache_duration": "none"
           },
           "leading_diamond": "\ue0b6",
@@ -18,7 +18,7 @@
           "style": "diamond"
         },
         {
-          "properties": {
+          "options": {
             "cache_duration": "none",
             "style": "agnoster_short"
           },
@@ -33,7 +33,7 @@
         {
           "options": {
             "branch_icon": "\uf126 ",
-            "cache_duration": "1h"
+            "cache_duration": "none"
           },
           "leading_diamond": " \ue0b6",
           "trailing_diamond": "\ue0b4",
@@ -51,7 +51,7 @@
           "background": "#29315A",
           "type": "battery",
           "style": "diamond",
-          "properties": {
+          "options": {
             "charged_icon": "🔋 ",
             "charging_icon": "🔋⬆ ",
             "discharging_icon": "🔋⬇ "
@@ -70,7 +70,7 @@
           "foreground": "#5ee7ec",
           "background": "#29315A",
           "template": "\uE235 {{ if .Venv }}{{ .Venv }}{{ end }}",
-          "properties": {
+          "options": {
             "fetch_virtual_env": true,
             "display_mode": "environment",
             "home_enabled": true
@@ -84,7 +84,7 @@
           "foreground": "#5ee7ec",
           "background": "#29315A",
           "template": "{{ .Name }} {{ .Version }}",
-          "properties": {
+          "options": {
             "macos": "mac"
           }
         },
@@ -96,7 +96,7 @@
           "foreground": "#ffffff",
           "background": "#29315A",
           "template": "{{ if .WSL }}WSL at {{ end }}{{.Icon}} {{.OS}}",
-          "properties": {
+          "options": {
             "macos": "mac"
           }
         }
@@ -107,7 +107,7 @@
       "alignment": "left",
       "segments": [
         {
-          "properties": {
+          "options": {
             "cache_duration": "none",
             "style": "austin",
             "threshold": 150
@@ -121,7 +121,7 @@
           "style": "diamond"
         },
         {
-          "properties": {
+          "options": {
             "cache_duration": "none"
           },
           "leading_diamond": "\ue0b6",
